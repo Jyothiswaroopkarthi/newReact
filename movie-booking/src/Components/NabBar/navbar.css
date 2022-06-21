@@ -1,0 +1,51 @@
+ul li{
+    list-style-type: none;
+}
+
+.nav-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: rgb(253,76,76);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: .1rem 1rem;
+}
+.nav-logo{
+    text-decoration: none;
+    font-size: 2rem;
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+   transition: all .4s ease-in-out;
+   padding: .2rem 1.6rem;
+}
+.nav-logo:hover{
+    color:rgb(29,29,29);
+    border: none;
+    background-color: rgb(255,126,117);
+}
+.nav-links{
+    display: flex;
+}
+.nav-link-item:hover{
+    border: none;
+}
+input[type="text"]{
+    background-color: rgb(255, 122, 112);
+    border: none;
+    padding: .4rem 2.2rem;
+}
+
+input [type="text"]:focus{
+    background-color: rgb(80,11,11);
+}
+
+input[type="submit"]{
+    background-color: rgb(255, 2, 2);
+    color: white;
+    font-weight: bolder;
+    outline: 1px solid white;
+}
+
+
+
