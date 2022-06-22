@@ -35,7 +35,7 @@ const  Details=() => {
                 <button className='btn booknow px-5 py-2 fs-5'
                 onClick={() =>{
                     if(isAuth){
-                        // navigate('/booking' , {state: id})
+                        navigate('/booking' , {state: id})
                     }
                     else{
                         navigate('/auth')

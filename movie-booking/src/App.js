@@ -5,6 +5,7 @@ import NavBar from './Components/NabBar/NavBar';
 import Home from './Components/Home/Home';
 import Auth from './Components/Auth/Auth';
 import Details from './Components/Details/Details';
+import Booking from './Components/Booking/Booking';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/auth" element={<Auth />} />
         <Route path='/details/:id' element ={<Details/>} />
+        <Route path="/booking" element={<Booking />} />
         
       </Routes>
       
