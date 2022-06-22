@@ -22,6 +22,8 @@ const Auth=() => {
                 placeholder="sample@gmail.com"
                 required
                 onChange ={(e)=>setEmail(e.target.value)} />
+
+                <small id="emailHelp" className='form-text text-muted'>We'll never share your email with anyone else</small>
             </div>
             <div className='form-group'>
                 <label for ="exampleinputpassword">Password</label>
